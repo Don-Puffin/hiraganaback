@@ -74,7 +74,7 @@
                     <target>${maven.compiler.target}</target>
                     <annotationProcessorPaths>
                         <path>
-                            <groupId>org.projectlombok</groupId>
+                            <groupId>org.project lombok</groupId>
                             <artifactId>lombok</artifactId>
                             <version>${lombok.version}</version>
                         </path>
