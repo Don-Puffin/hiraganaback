@@ -1,6 +1,5 @@
 package org.types;
 
-
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -9,14 +8,15 @@ import lombok.RequiredArgsConstructor;
 public class Hiragana {
 
     private final String value;
+    private final String englishValue;
 
-    public static Hiragana of (String value) {
-        if (value == null) {
+    public static Hiragana of(String value, String englishValue) {
+        if (value == null || englishValue == null) {
             throw new IllegalArgumentException("Cannot make hiragana from null");
         }
         if (!value.matches("[ぁ-んゔ゛]")) {
             throw new IllegalArgumentException("Please use a hiragana character");
         }
-        return new Hiragana(value);
+        return new Hiragana(value, englishValue);
     }
 }
