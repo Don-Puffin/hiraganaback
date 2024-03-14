@@ -17,6 +17,7 @@
         </processorPath>
         <module name="hiraganagenerator" />
         <module name="tinytypes" />
+        <module name="kana-crazy" />
       </profile>
     </annotationProcessing>
   </component>

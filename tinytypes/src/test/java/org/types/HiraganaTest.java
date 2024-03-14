@@ -10,9 +10,9 @@ public class HiraganaTest {
 
     @Test
     public void shouldMakeHiragana() {
-        var result = Hiragana.of("ぁ");
+        var result = Hiragana.of("だ");
 
-        assertThat(result.getValue(), equalTo("ぁ"));
+        assertThat(result.getValue(), equalTo("だ"));
     }
 
     @Test
