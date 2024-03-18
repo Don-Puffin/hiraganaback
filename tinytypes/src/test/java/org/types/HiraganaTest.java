@@ -18,6 +18,13 @@ public class HiraganaTest {
     }
 
     @Test
+    public void shouldMakeEnglishValueIntoLowerCase() {
+        var result = Hiragana.of("あ", "A");
+
+        assertThat(result.getEnglishValue(), equalTo("a"));
+    }
+
+    @Test
     public void shouldNotMakeHiraganaWithNullValue() {
         IllegalArgumentException e = assertThrows(IllegalArgumentException.class, () -> Hiragana.of(null, null));
         assertThat(e.getMessage(), equalTo("Cannot make hiragana from null"));
