@@ -23,8 +23,8 @@ public class HiraganaGeneratorTest {
     @Test
     public void shouldNotGenerateRandomHiraganaWithInvalidSize() {
 
-        IllegalArgumentException e = assertThrows(IllegalArgumentException.class, () -> hiraganaGenerator.hiraganaGenerator(20));
+        IllegalArgumentException e = assertThrows(IllegalArgumentException.class, () -> hiraganaGenerator.hiraganaGenerator(80));
 
-        assertThat(e.getMessage(), equalTo("size is too large for hiragana generator, please use 1 - 10"));
+        assertThat(e.getMessage(), equalTo("size is too large for hiragana generator, please use 1 - 71"));
     }
 }
