@@ -15,7 +15,7 @@ public class App {
             Hiragana hiragana = entry.getKey();
             String englishValue = hiragana.getEnglishValue();
             String hiraganaValue = hiragana.getValue();
-            System.out.println( hiraganaValue + englishValue);
+            System.out.println( "Hiragana: " + hiraganaValue + " English: " + englishValue);
         }
     }
 }
