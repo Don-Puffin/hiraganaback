@@ -1,17 +1,19 @@
 package org.generator.api;
 
 import lombok.RequiredArgsConstructor;
+import org.generator.HiraganaGenerator;
 import org.junit.jupiter.api.Test;
-@RequiredArgsConstructor
-public class HiraganaControllerTest {
 
-    private final HiraganaController hiraganaController;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalTo;
+public class HiraganaControllerTest {
+    HiraganaGenerator hiraganaGenerator = new HiraganaGenerator();
+    HiraganaController hiraganaController = new HiraganaController(hiraganaGenerator);
     @Test
-    public void shouldGenerateHiragana() {
+    public void shouldGenerateHiraganaList() {
 
         var hiraganaString = hiraganaController.generateHiragana(5);
 
-        System.out.println(hiraganaString);
-
+        assertThat(hiraganaString.size(), equalTo(5));
     }
 }
