@@ -1,8 +1,7 @@
-package org.example;
+package org.generator.api;
 
 import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;
-
 @RequiredArgsConstructor
 public class HiraganaControllerTest {
 
