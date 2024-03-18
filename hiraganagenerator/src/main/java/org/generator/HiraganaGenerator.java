@@ -1,10 +1,12 @@
 package org.generator;
 
+import org.springframework.stereotype.Component;
 import org.types.Hiragana;
 
 import java.security.SecureRandom;
 import java.util.*;
 
+@Component
 public class HiraganaGenerator {
     public Map<Hiragana, String> hiraganaGenerator(int size) {
         Random random = new SecureRandom();

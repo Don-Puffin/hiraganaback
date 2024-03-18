@@ -14,8 +14,8 @@ public class Hiragana {
         if (value == null || englishValue == null) {
             throw new IllegalArgumentException("Cannot make hiragana from null");
         }
-        if (!value.matches("[ぁ-んゔ゛]")) {
-            throw new IllegalArgumentException("Please use a hiragana character");
+        if (!value.matches("[ぁ-んゔ゛]") || !englishValue.matches("[a-z]+")) {
+            throw new IllegalArgumentException("Please use a hiragana character for value and a valid English value for englishValue");
         }
         return new Hiragana(value, englishValue);
     }
