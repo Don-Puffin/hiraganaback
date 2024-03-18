@@ -8,11 +8,20 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class HiraganaTest {
 
+
     @Test
     public void shouldMakeHiragana() {
         var result = Hiragana.of("あ", "a");
 
         assertThat(result.getValue(), equalTo("あ"));
+        assertThat(result.getEnglishValue(), equalTo("a"));
+    }
+
+    @Test
+    public void shouldMakeEnglishValueIntoLowerCase() {
+        var result = Hiragana.of("あ", "A");
+
+        assertThat(result.getEnglishValue(), equalTo("a"));
     }
 
     @Test
@@ -24,6 +33,6 @@ public class HiraganaTest {
     @Test
     public void shouldNotMakeHiraganaWithNonHiraganaCharacters() {
         IllegalArgumentException e = assertThrows(IllegalArgumentException.class, () -> Hiragana.of("A", "A"));
-        assertThat(e.getMessage(), equalTo("Please use a hiragana character"));
+        assertThat(e.getMessage(), equalTo("Please use a hiragana character for value and a valid English value for englishValue"));
     }
 }

@@ -21,4 +21,12 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Hiragana" options="-parameters" />
+      <module name="hiraganagenerator" options="-parameters" />
+      <module name="kana-crazy" options="-parameters" />
+      <module name="tinytypes" options="-parameters" />
+    </option>
+  </component>
 </project>
