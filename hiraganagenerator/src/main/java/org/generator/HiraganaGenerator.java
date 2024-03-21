@@ -88,8 +88,8 @@ public class HiraganaGenerator {
         possibleHiragana.put(Hiragana.of("ぜ", "ze"), "ze");
         possibleHiragana.put(Hiragana.of("ぞ", "zo"), "zo");
         possibleHiragana.put(Hiragana.of("だ", "da"), "da");
-        possibleHiragana.put(Hiragana.of("ぢ", "ji"), "ji");
-        possibleHiragana.put(Hiragana.of("づ", "zu"), "zu");
+        possibleHiragana.put(Hiragana.of("ぢ", "dji"), "ji");
+        possibleHiragana.put(Hiragana.of("づ", "dzu"), "dzu");
         possibleHiragana.put(Hiragana.of("で", "de"), "de");
         possibleHiragana.put(Hiragana.of("ど", "do"), "do");
         possibleHiragana.put(Hiragana.of("ば", "ba"), "ba");
