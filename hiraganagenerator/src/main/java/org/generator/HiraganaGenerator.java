@@ -1,11 +1,12 @@
 package org.generator;
 
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.types.Hiragana;
 
 import java.security.SecureRandom;
 import java.util.*;
-
+@CrossOrigin(origins = "http://localhost:3000")
 @Component
 public class HiraganaGenerator {
     public Map<Hiragana, String> hiraganaGenerator(int size) {
