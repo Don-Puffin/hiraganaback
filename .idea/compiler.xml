@@ -15,8 +15,8 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="hiraganagenerator" />
         <module name="tinytypes" />
+        <module name="hiraganagenerator (1)" />
         <module name="kana-crazy" />
         <module name="hiraganagenerator (2)" />
       </profile>
@@ -26,9 +26,8 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="hiraganagenerator (1)" />
+        <module name="hiraganagenerator" />
       </profile>
     </annotationProcessing>
   </component>
