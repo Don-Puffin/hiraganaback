@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/kanjigenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/katakanagenerator/pom.xml" />
       </list>
     </option>
   </component>

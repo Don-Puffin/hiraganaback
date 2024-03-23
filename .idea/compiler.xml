@@ -16,8 +16,19 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
         <module name="hiraganagenerator" />
-        <module name="kana-crazy" />
         <module name="tinytypes" />
+        <module name="kana-crazy" />
+        <module name="hiraganagenerator (2)" />
+      </profile>
+      <profile name="Annotation profile for hiraganagenerator" enabled="true">
+        <sourceOutputDir name="../katakanagenerator/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../katakanagenerator/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="hiraganagenerator (1)" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,6 +36,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Hiragana" options="-parameters" />
       <module name="hiraganagenerator" options="-parameters" />
+      <module name="hiraganagenerator (1)" options="-parameters" />
+      <module name="hiraganagenerator (2)" options="-parameters" />
       <module name="kana-crazy" options="-parameters" />
       <module name="tinytypes" options="-parameters" />
     </option>
