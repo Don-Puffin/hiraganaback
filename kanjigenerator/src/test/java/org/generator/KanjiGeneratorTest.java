@@ -25,6 +25,6 @@ public class KanjiGeneratorTest {
 
         IllegalArgumentException e = assertThrows(IllegalArgumentException.class, () -> kanjiGenerator.kanjiGenerator(80));
 
-        assertThat(e.getMessage(), equalTo("size is too large for kanji generator, please use 1 - 64"));
+        assertThat(e.getMessage(), equalTo("size is too large for kanji generator, please use 1 - 52"));
     }
 }
