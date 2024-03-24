@@ -53,8 +53,7 @@ public class KanjiGenerator {
         possibleKanji.put(Kanji.of("耳", "ear"), "ear");
         possibleKanji.put(Kanji.of("手", "hand"), "hand");
         possibleKanji.put(Kanji.of("足", "foot"), "foot");
-        possibleKanji.put(Kanji.of("玉", "jewel"), "jewel");
-        possibleKanji.put(Kanji.of("犬", "dog"), "dog");
+        possibleKanji.put(Kanji.of("玉", "ball"), "ball");
         possibleKanji.put(Kanji.of("火", "fire"), "fire");
         possibleKanji.put(Kanji.of("水", "water"), "water");
         possibleKanji.put(Kanji.of("木", "tree"), "tree");
@@ -64,9 +63,6 @@ public class KanjiGenerator {
         possibleKanji.put(Kanji.of("山", "mountain"), "mountain");
         possibleKanji.put(Kanji.of("川", "river"), "river");
         possibleKanji.put(Kanji.of("土", "soil"), "soil");
-        possibleKanji.put(Kanji.of("口", "mouth"), "mouth");
-        possibleKanji.put(Kanji.of("王", "king"), "king");
-        possibleKanji.put(Kanji.of("玉", "ball"), "ball");
         possibleKanji.put(Kanji.of("王", "king"), "king");
         possibleKanji.put(Kanji.of("石", "stone"), "stone");
         possibleKanji.put(Kanji.of("青", "blue"), "blue");
@@ -77,9 +73,6 @@ public class KanjiGenerator {
         possibleKanji.put(Kanji.of("花", "flower"), "flower");
         possibleKanji.put(Kanji.of("草", "grass"), "grass");
         possibleKanji.put(Kanji.of("林", "woods"), "woods");
-        possibleKanji.put(Kanji.of("山", "mountain"), "mountain");
-        possibleKanji.put(Kanji.of("木", "tree"), "tree");
-        possibleKanji.put(Kanji.of("林", "woods"), "woods");
         possibleKanji.put(Kanji.of("本", "book"), "book");
         possibleKanji.put(Kanji.of("村", "village"), "village");
         possibleKanji.put(Kanji.of("男", "man"), "man");
@@ -87,16 +80,12 @@ public class KanjiGenerator {
         possibleKanji.put(Kanji.of("母", "mother"), "mother");
         possibleKanji.put(Kanji.of("父", "father"), "father");
         possibleKanji.put(Kanji.of("牛", "cow"), "cow");
-        possibleKanji.put(Kanji.of("犬", "dog"), "dog");
-        possibleKanji.put(Kanji.of("鳥", "bird"), "bird");
         possibleKanji.put(Kanji.of("魚", "fish"), "fish");
         possibleKanji.put(Kanji.of("虫", "insect"), "insect");
         possibleKanji.put(Kanji.of("鳥", "bird"), "bird");
-        possibleKanji.put(Kanji.of("虫", "insect"), "insect");
-        possibleKanji.put(Kanji.of("鳥", "bird"), "bird");
-        possibleKanji.put(Kanji.of("虫", "insect"), "insect");
         possibleKanji.put(Kanji.of("食", "eat"), "eat");
         possibleKanji.put(Kanji.of("飲", "drink"), "drink");
+
         return possibleKanji;
     }
 }
