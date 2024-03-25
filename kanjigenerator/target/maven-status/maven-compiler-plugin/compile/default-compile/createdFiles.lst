@@ -1,1 +1,2 @@
-org\generator\HiraganaGenerator.class
+org\generator\KanjiGenerator.class
+org\generator\api\KanjiController.class

@@ -12,6 +12,8 @@
         <module>hiraganagenerator</module>
         <module>tinytypes</module>
         <module>kana-crazy</module>
+        <module>katakanagenerator</module>
+        <module>kanjigenerator</module>
     </modules>
 
     <properties>
@@ -113,6 +115,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.3.0</version>
                 <configuration>
+
                     <archive>
                         <manifest>
                             <mainClass>org.example.App</mainClass>
@@ -126,6 +129,9 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring.boot.version}</version>
             </plugin>
+
+
+
         </plugins>
     </build>
 

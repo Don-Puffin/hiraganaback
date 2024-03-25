@@ -1,1 +1,2 @@
-org\generator\HiraganaGenerator.class
+org\generator\api\KatakanaController.class
+org\generator\KatakanaGenerator.class
