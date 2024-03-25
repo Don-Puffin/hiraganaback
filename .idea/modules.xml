@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hiragana.iml" filepath="$PROJECT_DIR$/Hiragana.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hiraganagenerator/hiraganagenerator.iml" filepath="$PROJECT_DIR$/hiraganagenerator/hiraganagenerator.iml" />
     </modules>
   </component>
 </project>

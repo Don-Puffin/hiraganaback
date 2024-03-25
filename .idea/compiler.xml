@@ -26,10 +26,16 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
         <module name="hiraganagenerator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hiraganagenerator (1)" target="17" />
+      <module name="hiraganagenerator (2)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -38,6 +44,8 @@
       <module name="hiraganagenerator (1)" options="-parameters" />
       <module name="hiraganagenerator (2)" options="-parameters" />
       <module name="kana-crazy" options="-parameters" />
+      <module name="kanjigenerator" options="-parameters" />
+      <module name="katakanagenerator" options="-parameters" />
       <module name="tinytypes" options="-parameters" />
     </option>
   </component>
