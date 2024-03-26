@@ -42,12 +42,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>3.2.3</version>
         </dependency>
-        <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>hiraganaback</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+
     </dependencies>
 
     <build>
