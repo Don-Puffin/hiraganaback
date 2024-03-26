@@ -31,7 +31,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @ComponentScan(basePackages = {"org.example", "org.generator"})
 @SpringBootApplication(scanBasePackages = "org.generator")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://kana-crazy.vercel.app/")
+@CrossOrigin(origins = "http://localhost:3000")
 public class    App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
